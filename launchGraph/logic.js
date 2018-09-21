@@ -1,7 +1,7 @@
 // Creating map object
 var launchMap = L.map("map", {
-  center: [35.22, -80.84],
-  zoom: 2
+  center: [48.85, 2.35],
+  zoom: 2.4
 });
 
 //  tile layer
@@ -14,7 +14,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   
   // markerSize function based on mass
   function markerSize(launchMass) {
-    return launchMass / 3;
+    return launchMass / 1;
   }
 var launchSite = [{
   location: [45.96, 63.30],
@@ -127,7 +127,7 @@ var launchSite = [{
 for (var i = 0; i < launchSite.length; i++) {
   L.circle(launchSite[i].location, {
     fillOpacity: 0.75,
-    color: "white",
+    color: "black",
     fillColor: "red",
     // Setting radius equal to the output of our markerSize function
     radius: markerSize(launchSite[i].launchMass)
