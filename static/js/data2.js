@@ -1,9 +1,9 @@
 var data = [{
-    date: "",
+    altitude: "",
     latitude: "",
     longitude: "",
     velocity: "",
-    altitude: "",
+    date: "",
   },
   {
-    date: "",
+    altitude: "",
