@@ -1,4 +1,4 @@
-[
+var mydata = [
   {
     "Altitude": 259.5263946,
     "Latitude": -43.35489937,
