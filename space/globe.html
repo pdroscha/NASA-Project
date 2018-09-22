@@ -1,15 +1,12 @@
 <!DOCTYPE HTML>
 <html>
-    
   <head>
-    <meta charset="utf-8">
-    <title>Geo JSON</title>
     <script src="http://www.webglearth.com/v2/api.js"></script>
     <script>
       function initialize() {
         var options = {atmosphere: true, center: [0, 0], zoom: 0};
         var earth = new WE.map('earth_div', options);
-        WE.tileLayer('http://tileserver.maptiler.com/data.json', {
+        WE.tileLayer('http://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg', {
           minZoom: 0,
           maxZoom: 5,
           attribution: 'NASA'
@@ -25,8 +22,16 @@
     </head>
     <body onload="initialize()">
       <div id="earth_div"></div>
-      <!-- Our JS -->
-      <script type="text/javascript" src="data.js"></script>
-    
+          function initialize(orbit){
+             var lat = parseFloat($('#lat').val());
+            var lon = parseFloat($('#lon').val());
+            var mapOptions = {
+              center: { lat: lat, lon: lon },
+              zoom: 8
+      };
+
+
+}
+
   </body>
 </html>
