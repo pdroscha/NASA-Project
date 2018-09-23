@@ -12,7 +12,7 @@
     crossorigin=""></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/logic.js"></script>
+    <script type="text/javascript" src="js/leaflet-heat.js"></script>
 
   </head>
 <body>
@@ -25,57 +25,46 @@
     padding: 0px;
     margin: 0px;
   }
+
   #map,
   body,
   html {
     height: 100%;
   }
+
 </style>
 
 <!-- API key -->
 <script type="text/javascript" src="js/config.js"></script>
 <!-- JS -->
-<script type="text/javascript"> src="js/logic.js"></script>
+<script type="text/javascript">
 
-<script>
+var myMap = L.map('map', {
+  center: [33.7749, 67.4194],
+  zoom: 10
+});
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-  //center: [33.7749, 67.4194],
- // maxZoom: 18,
+  maxZoom: 18,
   id: 'mapbox.streets',
   accessToken: API_KEY
 }).addTo(myMap);
 
- var myMap = L.map('map', {
-  center: [33.7749, 67.4194],
-  zoom: 5
- });
-
 var url = "https://data.sfgov.org/resource/gxxq-x39z.json?$limit=10000"
 
-  response = d3.json(url);
-  //console.log(response);
+d3.csv("country_centroids_all.csv", function(err, launches) {
+ if (err) throw err;
 
-//reference to d3 local library here
-$(function(){
-        $.getJSON('js/data.json',function(data){
-            console.log('Launch Country');
+  // console.log(launches);
 
-           // $.each(data.employees,function(i,emp){
-            //    $('ul').append('<li>'+emp.firstName+' '+emp.lastName+'</li>');
-            });
-        }).error(function(){
-            console.log('error');
-        });
-    
   var heatArray = [];
 
-  for (var i = 0; i < response.length; i++) {
-    var location = response[i].coordinates;
+  for (var i = 0; i < launches.length; i++) {
+    var location = launches[i]["Launch Country"];
 
     if (location) {
-      heatArray.push([location])
+      heatArray.push([location.Lat, location.Long])
     }
   }
 
@@ -83,10 +72,10 @@ $(function(){
     radius: 20,
     blur: 35
   }).addTo(myMap)
+});
 
-  var myLayer = L.d3("logic.js").addTo(myMap);
-myLayer.addData(jsonFeature);
 
 </script>
+
 </body>
 </html>

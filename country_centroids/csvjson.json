@@ -1,0 +1,289 @@
+[
+  {
+    "Launch Country": "Argentina",
+    "# of launches": "15",
+    "Lat": "-34",
+    "Long": "-64",
+    "Coordinates": "[[-34,-64]]"
+  },
+  {
+    "Launch Country": "Australia",
+    "# of launches": "7",
+    "Lat": "-25",
+    "Long": "135",
+    "Coordinates": "[[-25,135]]"
+  },
+  {
+    "Launch Country": "Belarus",
+    "# of launches": "2",
+    "Lat": "53",
+    "Long": "28",
+    "Coordinates": "[[53,28]]"
+  },
+  {
+    "Launch Country": "Belgium",
+    "# of launches": "3",
+    "Lat": "50.833333",
+    "Long": "4",
+    "Coordinates": "[[50.833333,4]]"
+  },
+  {
+    "Launch Country": "Brazil",
+    "# of launches": "9",
+    "Lat": "-10",
+    "Long": "-55",
+    "Coordinates": "[[-10,-55]]"
+  },
+  {
+    "Launch Country": "Canada",
+    "# of launches": "28",
+    "Lat": "60",
+    "Long": "-96",
+    "Coordinates": "[[60,-96]]"
+  },
+  {
+    "Launch Country": "China",
+    "# of launches": "180",
+    "Lat": "35",
+    "Long": "105",
+    "Coordinates": "[[35,105]]"
+  },
+  {
+    "Launch Country": "Denmark",
+    "# of launches": "3",
+    "Lat": "56",
+    "Long": "10",
+    "Coordinates": "[[56,10]]"
+  },
+  {
+    "Launch Country": "Europe",
+    "# of launches": "33",
+    "Lat": "54",
+    "Long": "15",
+    "Coordinates": "[[54,15]]"
+  },
+  {
+    "Launch Country": "Egypt",
+    "# of launches": "2",
+    "Lat": "27",
+    "Long": "30",
+    "Coordinates": "[[27,30]]"
+  },
+  {
+    "Launch Country": "France",
+    "# of launches": "9",
+    "Lat": "46",
+    "Long": "2",
+    "Coordinates": "[[46,2]]"
+  },
+  {
+    "Launch Country": "Belgium",
+    "# of launches": "2",
+    "Lat": "50.833333",
+    "Long": "4",
+    "Coordinates": "[[50.833333,4]]"
+  },
+  {
+    "Launch Country": "Germany",
+    "# of launches": "24",
+    "Lat": "51.5",
+    "Long": "10.5",
+    "Coordinates": "[[51.5,10.5]]"
+  },
+  {
+    "Launch Country": "India",
+    "# of launches": "38",
+    "Lat": "20",
+    "Long": "77",
+    "Coordinates": "[[20,77]]"
+  },
+  {
+    "Launch Country": "Indonesia",
+    "# of launches": "8",
+    "Lat": "-5",
+    "Long": "120",
+    "Coordinates": "[[-5,120]]"
+  },
+  {
+    "Launch Country": "Israel",
+    "# of launches": "12",
+    "Lat": "31.5",
+    "Long": "34.75",
+    "Coordinates": "[[31.5,34.75]]"
+  },
+  {
+    "Launch Country": "Italy",
+    "# of launches": "7",
+    "Lat": "42.833333",
+    "Long": "12.833333",
+    "Coordinates": "[[42.833333,12.833333]]"
+  },
+  {
+    "Launch Country": "Japan",
+    "# of launches": "57",
+    "Lat": "36",
+    "Long": "138",
+    "Coordinates": "[[36,138]]"
+  },
+  {
+    "Launch Country": "Kazakhstan",
+    "# of launches": "4",
+    "Lat": "48",
+    "Long": "68",
+    "Coordinates": "[[48,68]]"
+  },
+  {
+    "Launch Country": "Luxembourg",
+    "# of launches": "18",
+    "Lat": "49.75",
+    "Long": "6.166667",
+    "Coordinates": "[[49.75,6.166667]]"
+  },
+  {
+    "Launch Country": "Malaysia",
+    "# of launches": "4",
+    "Lat": "2.5",
+    "Long": "112.5",
+    "Coordinates": "[[2.5,112.5]]"
+  },
+  {
+    "Launch Country": "Mexico",
+    "# of launches": "4",
+    "Lat": "23",
+    "Long": "-102",
+    "Coordinates": "[[23,-102]]"
+  },
+  {
+    "Launch Country": "Netherlands",
+    "# of launches": "10",
+    "Lat": "52.5",
+    "Long": "5.75",
+    "Coordinates": "[[52.5,5.75]]"
+  },
+  {
+    "Launch Country": "Nigeria",
+    "# of launches": "3",
+    "Lat": "10",
+    "Long": "8",
+    "Coordinates": "[[10,8]]"
+  },
+  {
+    "Launch Country": "Norway",
+    "# of launches": "6",
+    "Lat": "62",
+    "Long": "10",
+    "Coordinates": "[[62,10]]"
+  },
+  {
+    "Launch Country": "Russia",
+    "# of launches": "136",
+    "Lat": "60",
+    "Long": "100",
+    "Coordinates": "[[60,100]]"
+  },
+  {
+    "Launch Country": "Saudi Arabia",
+    "# of launches": "11",
+    "Lat": "25",
+    "Long": "45",
+    "Coordinates": "[[25,45]]"
+  },
+  {
+    "Launch Country": "Singapore",
+    "# of launches": "9",
+    "Lat": "1.366667",
+    "Long": "103.8",
+    "Coordinates": "[[1.366667,103.8]]"
+  },
+  {
+    "Launch Country": "South Africa",
+    "# of launches": "2",
+    "Lat": "-30",
+    "Long": "26",
+    "Coordinates": "[[-30,26]]"
+  },
+  {
+    "Launch Country": "South Korea",
+    "# of launches": "9",
+    "Lat": "37",
+    "Long": "127.5",
+    "Coordinates": "[[37,127.5]]"
+  },
+  {
+    "Launch Country": "Spain",
+    "# of launches": "15",
+    "Lat": "40",
+    "Long": "-4",
+    "Coordinates": "[[40,-4]]"
+  },
+  {
+    "Launch Country": "Sweden",
+    "# of launches": "2",
+    "Lat": "62",
+    "Long": "15",
+    "Coordinates": "[[62,15]]"
+  },
+  {
+    "Launch Country": "Switzerland",
+    "# of launches": "2",
+    "Lat": "47",
+    "Long": "8",
+    "Coordinates": "[[47,8]]"
+  },
+  {
+    "Launch Country": "Taiwan",
+    "# of launches": "5",
+    "Lat": "24",
+    "Long": "121",
+    "Coordinates": "[[24,121]]"
+  },
+  {
+    "Launch Country": "Thailand",
+    "# of launches": "5",
+    "Lat": "15",
+    "Long": "100",
+    "Coordinates": "[[15,100]]"
+  },
+  {
+    "Launch Country": "Turkey",
+    "# of launches": "6",
+    "Lat": "39.059012",
+    "Long": "34.911546",
+    "Coordinates": "[[39.059012,34.911546]]"
+  },
+  {
+    "Launch Country": "United States",
+    "# of launches": "561",
+    "Lat": "39.828175",
+    "Long": "-98.5795",
+    "Coordinates": "[[39.828175,-98.5795]]"
+  },
+  {
+    "Launch Country": "United Arab Emirates",
+    "# of launches": "6",
+    "Lat": "24",
+    "Long": "54",
+    "Coordinates": "[[24,54]]"
+  },
+  {
+    "Launch Country": "United Kingdom",
+    "# of launches": "41",
+    "Lat": "54",
+    "Long": "-4",
+    "Coordinates": "[[54,-4]]"
+  },
+  {
+    "Launch Country": "Venezuela",
+    "# of launches": "2",
+    "Lat": "8",
+    "Long": "-66",
+    "Coordinates": "[[8,-66]]"
+  },
+  {
+    "Launch Country": "Vietnam",
+    "# of launches": "3",
+    "Lat": "16.166667",
+    "Long": "107.833333",
+    "Coordinates": "[[16.166667,107.833333]]"
+  }
+]
