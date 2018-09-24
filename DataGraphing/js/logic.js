@@ -425,5 +425,5 @@ for (var i = 0; i < data.length; i++) {
     fillColor: "red",
     // Setting radius equal to the output of our markerSize function
     radius: markerSize(data[i].Number_of_launches)
-  }).bindPopup("<h1>" + data[i].Number_of_launches + "</h1> Number of launches" ).addTo(launchMap);
+  }).bindPopup("<h1>" + data[i].Number_of_launches + "</h1> Number of launches" ).addTo(myMap);
 };
