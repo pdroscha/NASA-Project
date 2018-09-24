@@ -42,37 +42,7 @@
     padding: 5px;
     margin: 0;
   }
-  
-  /* This CSS styles the ufo icon in the navbar */
-  .nav-ufo {
-    position: absolute;
-    bottom: 5px;
-    left: 150px;
-    width: 35px;
-    color: black;
-  }
-  
-  /* Adding styles to the aside and filter form */
-  .ufo-form {
-    margin-top: 50px;
-  }
-  
-  .filters .panel-body {
-    padding: 0;
-  }
-  
-  .filters {
-    margin-top: 10px;
-  }
-  
-  select {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    color: black;
-    outline: none;
-  }
-  
+
   #table-area th {
     text-align: center;
   }
@@ -90,6 +60,8 @@
   .margin-top-50 {
     margin-top: 50px;
   }
+
+
   
   /* The styles for the parallax */
   .hero {
