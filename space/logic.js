@@ -15,7 +15,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(myMap);
 
 // Loop through the cities array and create one marker for each city object
-for (var i = 0; i < mydata.length; i++) {
+for (var i = 0; i < 50; i++) {
   L.marker([mydata[i].Latitude, mydata[i].Longitude], {
   }).bindPopup(`${mydata[i].Date}, ${mydata[i].Altitude}, ${mydata[i].Velocity}`).addTo(myMap);
 }
