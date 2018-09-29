@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Cell Towers</title>
+    <title>SatOpsMap</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -12,7 +12,8 @@
     crossorigin=""></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/leaflet-heat.js"></script>
+    <script type="text/javascript" src="js/heatmap.js"></script>
+
 
   </head>
 <body>
@@ -37,11 +38,11 @@
 <!-- API key -->
 <script type="text/javascript" src="js/config.js"></script>
 <!-- JS -->
+<script type="text/javascript" src="js/logic.js"></script>
 <script type="text/javascript">
-
 var myMap = L.map('map', {
-  center: [33.7749, 67.4194],
-  zoom: 10
+  center: [42.77, 2.41],
+  zoom: 5
 });
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -51,28 +52,10 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(myMap);
 
-var url = "https://data.sfgov.org/resource/gxxq-x39z.json?$limit=10000"
 
-d3.csv("country_centroids_all.csv", function(err, launches) {
- if (err) throw err;
 
-  // console.log(launches);
 
-  var heatArray = [];
-
-  for (var i = 0; i < launches.length; i++) {
-    var location = launches[i]["Launch Country"];
-
-    if (location) {
-      heatArray.push([location.Lat, location.Long])
-    }
-  }
-
-  var heat = L.heatLayer(heatArray, {
-    radius: 20,
-    blur: 35
-  }).addTo(myMap)
-});
+  
 
 
 </script>
